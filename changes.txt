@@ -1,0 +1,11 @@
+multiple file types:
+pdfs
+word docs
+csvs
+xlsx
+PPTs
+
+next week:
+
+should be able to create a market ready proposal and presentation.
+deepseek's guard rails

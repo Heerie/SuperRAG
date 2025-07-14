@@ -1,0 +1,197 @@
+2025-04-30 12:17:55,365 - __main__ - INFO - Loaded configuration from config.ini
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Loaded configuration from config.ini
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,366 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,367 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,367 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,367 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-04-30 12:17:55,367 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:17:55,367 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:17:55,367 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-04-30 12:17:55,367 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-04-30 12:17:55,375 - __main__ - INFO - Initializing RAG system (SQL+Chat Version). Device: cuda, Supported files: ('.pdf', '.xlsx', '.csv', '.pptx')
+2025-04-30 12:17:55,377 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-04-30 12:17:55,378 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-30 12:17:59,492 - __main__ - INFO - Local embedding model loaded successfully
+2025-04-30 12:17:59,492 - __main__ - WARNING - DEEPSEEK_API_KEY not found in environment variables or config file. Spreadsheet metadata generation will fail.
+2025-04-30 12:17:59,493 - __main__ - INFO - Connected to SQLite database at ':memory:'
+2025-04-30 12:22:33,199 - __main__ - INFO - Loaded configuration from config.ini
+2025-04-30 12:22:33,199 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-04-30 12:22:33,199 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-04-30 12:22:33,199 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-04-30 12:22:33,199 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,199 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,199 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Loaded configuration from config.ini
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,200 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,201 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-04-30 12:22:33,201 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:22:33,201 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:22:33,201 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-04-30 12:22:33,201 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-04-30 12:22:33,208 - __main__ - INFO - Initializing RAG system (SQL+Chat Version). Device: cuda, Supported files: ('.pdf', '.xlsx', '.csv', '.pptx')
+2025-04-30 12:22:33,211 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-04-30 12:22:33,211 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-30 12:22:36,474 - __main__ - INFO - Local embedding model loaded successfully
+2025-04-30 12:22:36,475 - __main__ - INFO - Connected to SQLite database at ':memory:'
+2025-04-30 12:22:41,224 - __main__ - INFO - Clearing existing tables from in-memory database...
+2025-04-30 12:22:41,224 - __main__ - INFO - Dropped 0 tables.
+2025-04-30 12:22:41,225 - __main__ - INFO - Processing 3 supported files from ./Data/
+2025-04-30 12:22:41,226 - __main__ - INFO - --- Processing (1/3): SatSure Forest Stack - Andhra Pradesh (Oct 2024).pptx ---
+2025-04-30 12:22:41,236 - __main__ - INFO - Loaded 33 text chunks from ./Faiss_index/SatSure_Forest_Stack_-_Andhra_Pradesh__Oct_2024_.json
+2025-04-30 12:22:41,244 - __main__ - INFO - Loaded FAISS index for SatSure Forest Stack - Andhra Pradesh (Oct 2024).pptx (33 vectors)
+2025-04-30 12:22:41,244 - __main__ - INFO - Verified existing text index data for SatSure Forest Stack - Andhra Pradesh (Oct 2024).pptx
+2025-04-30 12:22:41,244 - __main__ - INFO - --- Processing (2/3): Smart_Farming_Crop_Yield_2024.csv ---
+2025-04-30 12:22:41,246 - __main__ - INFO - Processing CSV: Smart_Farming_Crop_Yield_2024.csv
+2025-04-30 12:22:41,271 - __main__ - INFO - Read CSV Smart_Farming_Crop_Yield_2024.csv using encoding: utf-8. (Rows: 500, Cols: 22)
+2025-04-30 12:22:42,022 - __main__ - ERROR - DeepSeek API request failed: 402 Client Error: Payment Required for url: https://api.deepseek.com/v1/chat/completions
+Traceback (most recent call last):
+  File "/home/heerie/Documents/RAG-LLM/ragtest_c2-7.py", line 482, in _get_column_metadata_deepseek
+    response = requests.post(api_url, headers=headers, json=payload, timeout=60); response.raise_for_status()
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/v1/chat/completions
+2025-04-30 12:22:42,027 - __main__ - WARNING - Failed to get column metadata for CSV. Proceeding without descriptions.
+2025-04-30 12:22:42,033 - __main__ - INFO - Loading DataFrame into SQL table 'smart_farming_crop_yield_2024'...
+2025-04-30 12:22:42,053 - __main__ - INFO - DataFrame loaded into table 'smart_farming_crop_yield_2024' (500 rows).
+2025-04-30 12:22:42,054 - __main__ - INFO - Successfully loaded CSV Smart_Farming_Crop_Yield_2024.csv into SQL table 'smart_farming_crop_yield_2024'
+2025-04-30 12:22:42,055 - __main__ - INFO - Successfully loaded data from Smart_Farming_Crop_Yield_2024.csv into SQL table(s): ['smart_farming_crop_yield_2024']
+2025-04-30 12:22:42,055 - __main__ - INFO - --- Processing (3/3): proposal.pdf ---
+2025-04-30 12:22:42,061 - __main__ - INFO - Loaded 234 text chunks from ./Faiss_index/proposal.json
+2025-04-30 12:22:42,065 - __main__ - INFO - Loaded FAISS index for proposal.pdf (234 vectors)
+2025-04-30 12:22:42,065 - __main__ - INFO - Verified existing text index data for proposal.pdf
+2025-04-30 12:22:42,066 - __main__ - INFO - --- Processing Complete. Processed 3/3 files. Text Indices: 2. SQL Tables: 1. ---
+2025-04-30 12:40:40,484 - __main__ - INFO - Loaded configuration from config.ini
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-04-30 12:40:40,484 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Loaded configuration from config.ini
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-04-30 12:40:40,485 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-04-30 12:40:40,493 - __main__ - INFO - Initializing RAG system (SQL+Chat Version). Device: cuda, Supported files: ('.pdf', '.xlsx', '.csv', '.pptx')
+2025-04-30 12:40:40,495 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-04-30 12:40:40,495 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-30 12:40:43,784 - __main__ - INFO - Local embedding model loaded successfully
+2025-04-30 12:40:43,784 - __main__ - INFO - Connected to SQLite database at ':memory:'
+2025-04-30 12:44:47,579 - __main__ - INFO - Clearing existing tables from in-memory database...
+2025-04-30 12:44:47,580 - __main__ - INFO - Dropped 0 tables.
+2025-04-30 12:44:47,582 - __main__ - INFO - Processing 3 supported files from ./Data/
+2025-04-30 12:44:47,583 - __main__ - INFO - --- Processing (1/3): SatSure Forest Stack - Andhra Pradesh (Oct 2024).pptx ---
+2025-04-30 12:44:47,587 - __main__ - INFO - Loaded 33 text chunks from ./Faiss_index/SatSure_Forest_Stack_-_Andhra_Pradesh__Oct_2024_.json
+2025-04-30 12:44:47,592 - __main__ - INFO - Loaded FAISS index for SatSure Forest Stack - Andhra Pradesh (Oct 2024).pptx (33 vectors)
+2025-04-30 12:44:47,592 - __main__ - INFO - Verified existing text index data for SatSure Forest Stack - Andhra Pradesh (Oct 2024).pptx
+2025-04-30 12:44:47,593 - __main__ - INFO - --- Processing (2/3): Smart_Farming_Crop_Yield_2024.csv ---
+2025-04-30 12:44:47,594 - __main__ - INFO - Processing CSV: Smart_Farming_Crop_Yield_2024.csv
+2025-04-30 12:44:47,616 - __main__ - INFO - Read CSV Smart_Farming_Crop_Yield_2024.csv using encoding: utf-8. (Rows: 500, Cols: 22)
+2025-04-30 12:44:48,691 - __main__ - ERROR - DeepSeek API request failed: 402 Client Error: Payment Required for url: https://api.deepseek.com/v1/chat/completions
+Traceback (most recent call last):
+  File "/home/heerie/Documents/RAG-LLM/ragtest_c2-7.py", line 482, in _get_column_metadata_deepseek
+    response = requests.post(api_url, headers=headers, json=payload, timeout=60); response.raise_for_status()
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 402 Client Error: Payment Required for url: https://api.deepseek.com/v1/chat/completions
+2025-04-30 12:44:48,698 - __main__ - WARNING - Failed to get column metadata for CSV. Proceeding without descriptions.
+2025-04-30 12:44:48,707 - __main__ - INFO - Loading DataFrame into SQL table 'smart_farming_crop_yield_2024'...
+2025-04-30 12:44:48,735 - __main__ - INFO - DataFrame loaded into table 'smart_farming_crop_yield_2024' (500 rows).
+2025-04-30 12:44:48,736 - __main__ - INFO - Successfully loaded CSV Smart_Farming_Crop_Yield_2024.csv into SQL table 'smart_farming_crop_yield_2024'
+2025-04-30 12:44:48,736 - __main__ - INFO - Successfully loaded data from Smart_Farming_Crop_Yield_2024.csv into SQL table(s): ['smart_farming_crop_yield_2024']
+2025-04-30 12:44:48,736 - __main__ - INFO - --- Processing (3/3): proposal.pdf ---
+2025-04-30 12:44:48,741 - __main__ - INFO - Loaded 234 text chunks from ./Faiss_index/proposal.json
+2025-04-30 12:44:48,748 - __main__ - INFO - Loaded FAISS index for proposal.pdf (234 vectors)
+2025-04-30 12:44:48,748 - __main__ - INFO - Verified existing text index data for proposal.pdf
+2025-04-30 12:44:48,748 - __main__ - INFO - --- Processing Complete. Processed 3/3 files. Text Indices: 2. SQL Tables: 1. ---
+2025-04-30 12:45:05,961 - __main__ - INFO - --- Starting query execution (SQL+Chat): 'What are some Projects Satsure has done ...' ---
+2025-04-30 12:45:05,964 - __main__ - INFO - Encoding query for Faiss text search: 'What are some Projects Satsure has done ...'
+2025-04-30 12:45:06,580 - __main__ - INFO - Groq LLM client initialized (meta-llama/llama-4-scout-17b-16e-instruct)
+2025-04-30 12:45:06,580 - __main__ - INFO - Calling Groq LLM (meta-llama/llama-4-scout-17b-16e-instruct) for internal task: query classification...
+2025-04-30 12:45:06,948 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 12:45:06,971 - __main__ - INFO - LLM response for query classification: '{"classification": "Simple Retrieval", "confidence": 0.95}...'
+2025-04-30 12:45:06,971 - __main__ - INFO - Query classified as 'Simple Retrieval' with confidence 0.95
+2025-04-30 12:45:06,972 - __main__ - INFO - Refined query classified as: Simple Retrieval (Confidence: 0.95)
+2025-04-30 12:45:06,972 - __main__ - INFO - Query classified for text retrieval/reasoning or no suitable SQL path. Proceeding with text RAG.
+2025-04-30 12:45:06,973 - __main__ - INFO - Reusing text retrieval results from pre-search step.
+2025-04-30 12:45:06,974 - __main__ - INFO - Aggregating text context using strategy 'top_k', max_chars ~12000
+2025-04-30 12:45:06,975 - __main__ - INFO - Aggregated 5377 chars from 5 text chunks across 1 files.
+2025-04-30 12:45:06,978 - __main__ - INFO - Querying Groq model meta-llama/llama-4-scout-17b-16e-instruct using text context from proposal.pdf and chat history...
+2025-04-30 12:45:07,622 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 12:45:07,625 - __main__ - INFO - Groq response received for text RAG w/ history (attempt 1). Length: 1204
+2025-04-30 12:45:07,627 - __main__ - INFO - --- Finished query execution (SQL+Chat) for: 'What are some Projects Satsure has done ...'. Answer Source: Text RAG --- Status: Completed Successfully ---
+2025-05-17 11:18:44,968 - __main__ - INFO - Loaded configuration from config.ini
+2025-05-17 11:18:44,977 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-05-17 11:18:44,977 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-05-17 11:18:44,978 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Loaded configuration from config.ini
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'sqlite_db_path = :memory:' to section [PATHS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'deepseek_model = deepseek-reasoner' to section [MODELS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'dataframe_query_confidence_threshold = 0.75' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'max_chat_history_turns = 5' to section [PARAMETERS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing section [API_KEYS] from defaults.
+2025-05-17 11:18:44,979 - __main__ - INFO - Added missing option 'deepseek_api_key_config = ' to section [API_KEYS] from defaults.
+2025-05-17 11:18:44,987 - __main__ - INFO - Initializing RAG system (SQL+Chat Version). Device: cuda, Supported files: ('.pdf', '.xlsx', '.csv', '.pptx')
+2025-05-17 11:18:44,988 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-17 11:18:44,988 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-17 11:18:48,216 - __main__ - INFO - Local embedding model loaded successfully
+2025-05-17 11:18:48,216 - __main__ - INFO - Connected to SQLite database at ':memory:'

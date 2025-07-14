@@ -1,0 +1,87 @@
+2025-05-18 11:56:03,224 - __main__ - INFO - Loaded configuration from config.ini
+2025-05-18 11:56:03,224 - __main__ - INFO - Added missing option 'data_dir = ./Data/' to section [PATHS] from defaults.
+2025-05-18 11:56:03,224 - __main__ - INFO - Added missing option 'max_context_tokens = 4000' to section [PARAMETERS] from defaults.
+2025-05-18 11:56:03,224 - __main__ - INFO - Added missing option 'max_chars_per_element = 1000' to section [PARAMETERS] from defaults.
+2025-05-18 11:56:03,224 - __main__ - INFO - Added missing option 'pptx_merge_threshold_words = 50' to section [PARAMETERS] from defaults.
+2025-05-18 11:56:03,224 - __main__ - INFO - Added missing section [SUPPORTED_EXTENSIONS] from defaults.
+2025-05-18 11:56:03,224 - __main__ - INFO - Added missing option 'extensions = .pdf, .xlsx, .csv, .pptx' to section [SUPPORTED_EXTENSIONS] from defaults.
+2025-05-18 11:56:03,233 - __main__ - INFO - Initializing RAG system. Device: cpu, Supported files: ('.pdf', '.xlsx', '.csv', '.pptx')
+2025-05-18 11:56:03,235 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-05-18 11:56:03,235 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-18 11:56:06,808 - __main__ - INFO - Local embedding model loaded successfully
+2025-05-18 11:56:06,820 - __main__ - INFO - Processing 15 supported files from ./Data/
+2025-05-18 11:56:06,822 - __main__ - INFO - --- Processing (1/15): BASF Technical proposal (2).pdf ---
+2025-05-18 11:56:06,826 - __main__ - INFO - Loaded 55 chunks from ./Faiss_index/BASF_Technical_proposal__2_.json
+2025-05-18 11:56:06,830 - __main__ - INFO - Loaded FAISS index for BASF Technical proposal (2).pdf (55 vectors)
+2025-05-18 11:56:06,830 - __main__ - INFO - Verified existing data for BASF Technical proposal (2).pdf
+2025-05-18 11:56:06,830 - __main__ - INFO - --- Processing (2/15): Chola MS Sparta Maps proposal_V1.pdf ---
+2025-05-18 11:56:06,833 - __main__ - INFO - Loaded 23 chunks from ./Faiss_index/Chola_MS_Sparta_Maps_proposal_V1.json
+2025-05-18 11:56:06,835 - __main__ - INFO - Loaded FAISS index for Chola MS Sparta Maps proposal_V1.pdf (23 vectors)
+2025-05-18 11:56:06,835 - __main__ - INFO - Verified existing data for Chola MS Sparta Maps proposal_V1.pdf
+2025-05-18 11:56:06,835 - __main__ - INFO - --- Processing (3/15): Gebana_EUDR_SatSure.pdf ---
+2025-05-18 11:56:06,837 - __main__ - INFO - Loaded 31 chunks from ./Faiss_index/Gebana_EUDR_SatSure.json
+2025-05-18 11:56:06,838 - __main__ - INFO - Loaded FAISS index for Gebana_EUDR_SatSure.pdf (31 vectors)
+2025-05-18 11:56:06,838 - __main__ - INFO - Verified existing data for Gebana_EUDR_SatSure.pdf
+2025-05-18 11:56:06,838 - __main__ - INFO - --- Processing (4/15): ITC paperboard Proposal.pdf ---
+2025-05-18 11:56:06,839 - __main__ - INFO - Loaded 45 chunks from ./Faiss_index/ITC_paperboard_Proposal.json
+2025-05-18 11:56:06,840 - __main__ - INFO - Loaded FAISS index for ITC paperboard Proposal.pdf (45 vectors)
+2025-05-18 11:56:06,841 - __main__ - INFO - Verified existing data for ITC paperboard Proposal.pdf
+2025-05-18 11:56:06,841 - __main__ - INFO - --- Processing (5/15): JB boda_SatSure.pdf ---
+2025-05-18 11:56:06,841 - __main__ - INFO - Loaded 17 chunks from ./Faiss_index/JB_boda_SatSure.json
+2025-05-18 11:56:06,842 - __main__ - INFO - Loaded FAISS index for JB boda_SatSure.pdf (17 vectors)
+2025-05-18 11:56:06,842 - __main__ - INFO - Verified existing data for JB boda_SatSure.pdf
+2025-05-18 11:56:06,842 - __main__ - INFO - --- Processing (6/15): JICA_Proposal_SatSure.pdf ---
+2025-05-18 11:56:06,844 - __main__ - INFO - Loaded 38 chunks from ./Faiss_index/JICA_Proposal_SatSure.json
+2025-05-18 11:56:06,845 - __main__ - INFO - Loaded FAISS index for JICA_Proposal_SatSure.pdf (38 vectors)
+2025-05-18 11:56:06,845 - __main__ - INFO - Verified existing data for JICA_Proposal_SatSure.pdf
+2025-05-18 11:56:06,845 - __main__ - INFO - --- Processing (7/15): Market Potential and demand estimation usecase.docx.pdf ---
+2025-05-18 11:56:06,845 - __main__ - INFO - Loaded 10 chunks from ./Faiss_index/Market_Potential_and_demand_estimation_usecase.docx.json
+2025-05-18 11:56:06,846 - __main__ - INFO - Loaded FAISS index for Market Potential and demand estimation usecase.docx.pdf (10 vectors)
+2025-05-18 11:56:06,846 - __main__ - INFO - Verified existing data for Market Potential and demand estimation usecase.docx.pdf
+2025-05-18 11:56:06,846 - __main__ - INFO - --- Processing (8/15): Munichre_Satsure.pdf ---
+2025-05-18 11:56:06,847 - __main__ - INFO - Loaded 46 chunks from ./Faiss_index/Munichre_Satsure.json
+2025-05-18 11:56:06,848 - __main__ - INFO - Loaded FAISS index for Munichre_Satsure.pdf (46 vectors)
+2025-05-18 11:56:06,849 - __main__ - INFO - Verified existing data for Munichre_Satsure.pdf
+2025-05-18 11:56:06,849 - __main__ - INFO - --- Processing (9/15): Punjab Proposal_SatSure.pdf ---
+2025-05-18 11:56:06,850 - __main__ - INFO - Loaded 21 chunks from ./Faiss_index/Punjab_Proposal_SatSure.json
+2025-05-18 11:56:06,850 - __main__ - INFO - Loaded FAISS index for Punjab Proposal_SatSure.pdf (21 vectors)
+2025-05-18 11:56:06,851 - __main__ - INFO - Verified existing data for Punjab Proposal_SatSure.pdf
+2025-05-18 11:56:06,851 - __main__ - INFO - --- Processing (10/15): Raizen (1).pdf ---
+2025-05-18 11:56:06,851 - __main__ - INFO - Loaded 58 chunks from ./Faiss_index/Raizen__1_.json
+2025-05-18 11:56:06,852 - __main__ - INFO - Loaded FAISS index for Raizen (1).pdf (58 vectors)
+2025-05-18 11:56:06,852 - __main__ - INFO - Verified existing data for Raizen (1).pdf
+2025-05-18 11:56:06,852 - __main__ - INFO - --- Processing (11/15): SS Alliance-Roadmap for Africa expansion_SatSure (1).pdf ---
+2025-05-18 11:56:06,853 - __main__ - INFO - Loaded 43 chunks from ./Faiss_index/SS_Alliance-Roadmap_for_Africa_expansion_SatSure__1_.json
+2025-05-18 11:56:06,854 - __main__ - INFO - Loaded FAISS index for SS Alliance-Roadmap for Africa expansion_SatSure (1).pdf (43 vectors)
+2025-05-18 11:56:06,854 - __main__ - INFO - Verified existing data for SS Alliance-Roadmap for Africa expansion_SatSure (1).pdf
+2025-05-18 11:56:06,854 - __main__ - INFO - --- Processing (12/15): SatSure_Sugarcane (1).pdf ---
+2025-05-18 11:56:06,855 - __main__ - INFO - Loaded 70 chunks from ./Faiss_index/SatSure_Sugarcane__1_.json
+2025-05-18 11:56:06,855 - __main__ - INFO - Loaded FAISS index for SatSure_Sugarcane (1).pdf (70 vectors)
+2025-05-18 11:56:06,856 - __main__ - INFO - Verified existing data for SatSure_Sugarcane (1).pdf
+2025-05-18 11:56:06,856 - __main__ - INFO - --- Processing (13/15): Satsure_IFAD_Proposal.pdf ---
+2025-05-18 11:56:06,856 - __main__ - INFO - Loaded 84 chunks from ./Faiss_index/Satsure_IFAD_Proposal.json
+2025-05-18 11:56:06,857 - __main__ - INFO - Loaded FAISS index for Satsure_IFAD_Proposal.pdf (84 vectors)
+2025-05-18 11:56:06,857 - __main__ - INFO - Verified existing data for Satsure_IFAD_Proposal.pdf
+2025-05-18 11:56:06,857 - __main__ - INFO - --- Processing (14/15): Villgro_SatSure.pdf ---
+2025-05-18 11:56:06,858 - __main__ - INFO - Loaded 31 chunks from ./Faiss_index/Villgro_SatSure.json
+2025-05-18 11:56:06,858 - __main__ - INFO - Loaded FAISS index for Villgro_SatSure.pdf (31 vectors)
+2025-05-18 11:56:06,858 - __main__ - INFO - Verified existing data for Villgro_SatSure.pdf
+2025-05-18 11:56:06,858 - __main__ - INFO - --- Processing (15/15): Yara_ SatSure.pdf ---
+2025-05-18 11:56:06,859 - __main__ - INFO - Loaded 25 chunks from ./Faiss_index/Yara__SatSure.json
+2025-05-18 11:56:06,859 - __main__ - INFO - Loaded FAISS index for Yara_ SatSure.pdf (25 vectors)
+2025-05-18 11:56:06,859 - __main__ - INFO - Verified existing data for Yara_ SatSure.pdf
+2025-05-18 11:56:06,859 - __main__ - INFO - --- Processing Complete. Indexed 15/15 documents. ---
+2025-05-18 11:56:17,221 - __main__ - INFO - --- Starting query execution (v3): 'What is SatSure...' ---
+2025-05-18 11:56:17,397 - __main__ - INFO - Groq LLM client initialized (meta-llama/llama-4-scout-17b-16e-instruct)
+2025-05-18 11:56:17,397 - __main__ - INFO - Calling LLM for query classification...
+2025-05-18 11:56:17,562 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 11:56:17,583 - __main__ - INFO - LLM response for query classification: 'Simple Retrieval...'
+2025-05-18 11:56:17,584 - __main__ - INFO - Query classified as: Simple Retrieval
+2025-05-18 11:56:17,586 - __main__ - INFO - Retrieving for query part 1/1: 'What is SatSure...'
+2025-05-18 11:56:17,586 - __main__ - INFO - Encoding query for Faiss: 'What is SatSure...'
+2025-05-18 11:56:17,641 - __main__ - INFO - Aggregating context using strategy 'top_k', max_chars ~12000
+2025-05-18 11:56:17,642 - __main__ - INFO - Aggregated 3231 chars from 5 chunks across 3 files.
+2025-05-18 11:56:17,643 - __main__ - INFO - Querying Groq model meta-llama/llama-4-scout-17b-16e-instruct using context from Gebana_EUDR_SatSure.pdf, Raizen (1).pdf, SatSure_Sugarcane (1).pdf...
+2025-05-18 11:56:18,691 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 11:56:18,694 - __main__ - INFO - Groq response received (attempt 1). Length: 1046
+2025-05-18 11:56:18,695 - __main__ - INFO - --- Finished query execution (v3) for: 'What is SatSure...' ---
